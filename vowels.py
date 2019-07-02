@@ -1,6 +1,6 @@
 inpu=input()
 vowels=["a","e","i","o","u"]
 if inpu in vowels:
-    print("Vowels")
+    print("Vowel")
 else:
-    print("Constant")
+    print("Consonant")
