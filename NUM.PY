@@ -1,17 +1,10 @@
 number=int(input())
 
 if (number > 0):
-    
-	print("POSITIVE")
-
+	print("Positive")
 elif(number < 0):
-    
-	print("NEGATIVE")
-
+	print("Negative")
 elif(number == 0):
-    
-	print("ZERO")
-
+	print("Zero")
 else:
-    
-	print("INVALID")
+	print("Invalid")
