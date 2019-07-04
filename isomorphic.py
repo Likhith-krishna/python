@@ -1,7 +1,7 @@
 def stre(a,b):
     if(len(a)==len(b)):
-        return ("Yes")
+        return ("yes")
     else:
-        return ("No")
+        return ("no")
 a,b=map(str,input().split())
 print(stre(a,b))
