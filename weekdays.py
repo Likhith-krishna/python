@@ -1,9 +1,10 @@
 def week(day):
-    weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-    if(day=="Sunday"):
-        return ("Yes")
+    weekends=["Sunday","Saturday"]
+    weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday"]
+    if day in weekends:
+        return ("yes")
     elif day in weekdays:
-        return ("No")
+        return ("no")
     else:
         return ("Invalid")
 day=str(input())
