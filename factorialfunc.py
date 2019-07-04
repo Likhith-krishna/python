@@ -4,7 +4,7 @@ def factorial(n):
             n= n*factorial(n-1)
             return n
         else:
-            return n-1
+            return 1
     else:
         return ("give value less tahn 20")
 number=int(input())
