@@ -1,5 +1,2 @@
 num=int(input())
-sum=1
-for x in range(1,num):
-    sum=x*num
-    print(sum,end=" ")
+print(num*1,num*2,num*3,num*4,num*5)
