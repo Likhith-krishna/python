@@ -4,3 +4,4 @@ def spli(a,b):
     else:
         return ("invalid")
 a,b=map(int,input().split())
+print(spli(a,b))
