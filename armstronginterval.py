@@ -1,5 +1,5 @@
 inpu1,inpu2=map(int,input().split())
-for inpu in range(inpu1,inpu2+1):
+for inpu in range(inpu1,inpu2):
     suma=0
     temp=inpu
     while temp>0:
