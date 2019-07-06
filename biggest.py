@@ -1,3 +1,4 @@
-number=int(input())
-arr=map(int,input().split())
-print(max(arr)))
+#inw=[]
+n=int(input())
+k=map(int,input().split())
+print(min(k))
