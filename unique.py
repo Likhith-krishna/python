@@ -1,1 +1,1 @@
-print(sum([num*num for x in map(int,list((input())))]))
+print(sum([num*num for num in map(int,list((input())))]))
