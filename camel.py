@@ -1,3 +1,3 @@
-string=input()
-camel=srting.title()
+stringer=input()
+camel=srtinger.title()
 print(camel)
