@@ -5,5 +5,5 @@ if "." in number:
 elif(number.isnumeric()==True):
     print("yes")
 else:
-    print("no")
+    print("No")
     
