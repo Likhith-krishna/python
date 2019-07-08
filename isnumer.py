@@ -1,9 +1,9 @@
 number=input()
 if "." in number:
     val=float(number)
-    print("yes")
+    print("Yes")
 elif(number.isnumeric()==True):
-    print("yes")
+    print("Yes")
 else:
     print("No")
     
