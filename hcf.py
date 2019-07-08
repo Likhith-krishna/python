@@ -9,5 +9,5 @@ def greaterdiv(x, y):
             
     return greater
 
-num1,num2=map(int,(input().split()))
-print(greaterdiv(num1, num2))
+nu1,nu2=map(int,(input().split()))
+print(greaterdiv(nu1, nu2))
