@@ -9,7 +9,7 @@ def greaterdiv(x, y):
             
     return greater
 def lcm(x,y):
-    return (x*y) / greaterdiv(x,y)
+    return int((x*y) / greaterdiv(x,y))
 
 number1,number2=map(int,(input().split()))
 print(lcm(number1, number2))
