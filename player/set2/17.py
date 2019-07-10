@@ -11,5 +11,5 @@ def greaterdiv(x, y):
 def lcm(x,y):
     return int((x*y) / greaterdiv(x,y))
 
-number1,number2=map(int,(input().split()))
-print(lcm(number1, number2))
+numbe1,numbe2=map(int,(input().split()))
+print(lcm(numbe1, numbe2))
