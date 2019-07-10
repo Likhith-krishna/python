@@ -1,4 +1,5 @@
-stre=input()
+inpu=input()
+stre=str(input())
 vowels=('a','e','i','o','u')
 for x in stre:
     if x in vowels:
