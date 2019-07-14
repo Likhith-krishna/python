@@ -1,5 +1,10 @@
-sp=input()
-if ("a" or "e" or "i" or "o" or "u") in sp:
-    print("yes")
-else:
+sr=input()
+flag=0
+ab=list('aeiouAEIOU')
+for i in sr:
+    if i in ab:
+        print("yes")
+        flag=1
+        break
+if flag==0:
     print("no")
