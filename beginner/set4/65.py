@@ -1,0 +1,2 @@
+inpe=input()
+print(inpe)
