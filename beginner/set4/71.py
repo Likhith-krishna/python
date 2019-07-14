@@ -1,5 +1,6 @@
 inter=input()
-if(inter==inter[::1]):
+d=inter[::-1]
+if(inter==d):
     print("yes")
 else:
     print("no")
