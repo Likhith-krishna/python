@@ -1,6 +1,5 @@
-stp=input()
-vowels=["a","e","i","o","u"]
-if vowels in stp:
+sp=input()
+if ("a" or "e" or "i" or "o" or "u") in sp:
     print("yes")
 else:
     print("no")
