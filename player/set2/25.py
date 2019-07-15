@@ -1,5 +1,6 @@
 st=int(input())
 llst=list(map(str,input().split()))
-a=sorted(llst,key=len)
-for i in a:
+llst.sort()
+llst.sort(key=len)
+for i in llst:
     print(i,end=" ")
