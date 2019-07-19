@@ -1,2 +1,2 @@
-t=input()
-print(t[::-1])
+inter=input()
+print(inter[::-1])
