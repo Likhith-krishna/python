@@ -4,4 +4,4 @@ e=2*a1
 f=(n1-1)*d1
 g=e+f
 h=k*g
-print(h)
+print(int(h))
