@@ -1,4 +1,3 @@
-stre=input()
-a=stre[0],stre[3]
-for c in a:
-    print(c,end="")
+stre=str(input())
+for i in range(0,len(stre),3):
+    print(stre[i],end="")
