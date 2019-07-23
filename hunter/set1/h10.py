@@ -6,6 +6,6 @@ for i in k:
 for l in j:
     d=(" ".join(j))
 if(c.find(d)==-1):
-    print("no")
+    print("NO")
 else:
-    print("yes")
+    print("YES")
