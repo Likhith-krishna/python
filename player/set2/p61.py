@@ -6,6 +6,6 @@ for i in range(0,c):
         if l[i]+l[j]==d:
             flag=flag+1
 if(flag>=1):
-    print("YES")
+    print("yes")
 else:
-    print("NO")
+    print("no")
