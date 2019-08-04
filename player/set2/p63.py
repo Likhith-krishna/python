@@ -5,6 +5,7 @@ d=[]
 for i in l:
     if i in m:
         d.append(i)
+d=set(d)
 d.sort()
 print(*d)
 
